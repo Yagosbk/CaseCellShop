@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>backend</name>
+    </assembly>
+    <members>
+        <member name="M:Backend.Presentation.Controllers.CheckoutController.CheckoutCart(Backend.Application.DTOs.Checkout.CheckoutCartRequestDto)">
+            <summary>Realiza o checkout de um carrinho com múltiplos itens.</summary>
+            <remarks>Suporta idempotência via header <c>Idempotency-Key</c>.</remarks>
+            <response code="200">Checkout realizado com sucesso.</response>
+            <response code="400">Carrinho vazio ou dados inválidos.</response>
+            <response code="404">Produto não encontrado.</response>
+            <response code="422">Estoque insuficiente.</response>
+        </member>
+        <member name="M:Backend.Presentation.Controllers.ProductsController.Get">
+            <summary>Lista todos os produtos disponíveis.</summary>
+            <response code="200">Retorna a lista de produtos.</response>
+        </member>
+    </members>
+</doc>
