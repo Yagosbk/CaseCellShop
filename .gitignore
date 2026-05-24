@@ -1,0 +1,33 @@
+# .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+.vs/
+*.userprefs
+*.pidb
+*.sln.docstates
+
+# Publicação
+publish/
+*.pubxml
+*.pubxml.user
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build frontend
+frontend/build/
+frontend/coverage/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
