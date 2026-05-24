@@ -30,8 +30,8 @@ function App() {
     7:  'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500',
     8:  'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500',
     9:  'https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500',
-    10: 'https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?w=500',
-    11: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500',
+    10: 'https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=500',
+    11: 'https://images.unsplash.com/photo-1567581935884-3349723552ca?w=500',
     12: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500',
   };
 

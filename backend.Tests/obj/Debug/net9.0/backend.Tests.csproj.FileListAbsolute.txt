@@ -450,3 +450,4 @@ C:\Users\yagos\Downloads\CaseCellShop\backend.Tests\obj\Debug\net9.0\backend.Tes
 C:\Users\yagos\Downloads\CaseCellShop\backend.Tests\obj\Debug\net9.0\backend.Tests.genruntimeconfig.cache
 C:\Users\yagos\Downloads\CaseCellShop\backend.Tests\obj\Debug\net9.0\ref\backend.Tests.dll
 C:\Users\yagos\Downloads\CaseCellShop\backend.Tests\bin\Debug\net9.0\backend.xml
+C:\Users\yagos\Downloads\CaseCellShop\backend.Tests\obj\Debug\net9.0\backend.Tests.sourcelink.json
