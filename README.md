@@ -12,7 +12,7 @@ O front-end segue a stack sugerida: **React + TypeScript**.
 
 ## Pré-requisitos
 
-- [.NET 9.0 SDK](https://dotnet.microsoft.com/download)
+- [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
 - [Node.js 16+](https://nodejs.org/) e npm
 
 ---
@@ -28,8 +28,14 @@ cd backend
 dotnet run
 ```
 
-- API: `http://localhost:5111`
-- Swagger (documentação interativa): `http://localhost:5111/swagger`
+Aguarde até aparecer no terminal uma linha como:
+
+```
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5111
+```
+
+Quando essa linha aparecer, abra `http://localhost:5111/swagger` no navegador para ver a documentação interativa da API.
 
 ### Terminal 2 — Front-end
 

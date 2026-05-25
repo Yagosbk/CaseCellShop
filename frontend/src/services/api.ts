@@ -18,7 +18,7 @@ export const getProducts = async (): Promise<Product[]> => {
     return handleResponse(response);
   } catch (error) {
     if (error instanceof TypeError)
-      throw new Error('Sem conexão com o servidor. Verifique se a API está rodando.');
+      throw new Error('Sem conexão com o servidor. StatusCode: 500');
     throw error;
   }
 };
@@ -29,7 +29,7 @@ export const getProductById = async (id: number): Promise<Product> => {
     return handleResponse(response);
   } catch (error) {
     if (error instanceof TypeError)
-      throw new Error('Sem conexão com o servidor. Verifique se a API está rodando.');
+      throw new Error('Sem conexão com o servidor. StatusCode: 500');
     throw error;
   }
 };
@@ -50,7 +50,7 @@ export const createCartCheckout = async (
     return handleResponse(response);
   } catch (error) {
     if (error instanceof TypeError)
-      throw new Error('Sem conexão com o servidor. Verifique se a API está rodando.');
+      throw new Error('Sem conexão com o servidor. StatusCode: 500');
     throw error;
   }
 };
